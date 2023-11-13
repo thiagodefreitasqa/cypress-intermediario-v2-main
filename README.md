@@ -1,34 +1,62 @@
 # Testes automatizados com Cypress - Intermediário
 
-👋 Seja bem-vinda(o)!
+Bem-vindo ao repositório **Cypress Básico v2**! Este projeto é uma demonstração do conhecimento adquirido por meio do curso **"Testes Automatizados com Cypress Intermediário"** disponibilizado na plataforma Udemy, ministrado pelo mestre [Walmyr Souza Filho](https://www.udemy.com/user/walmyr/). Este repositório foi desenvolvido com base no curso mencionado, onde aprendi os fundamentos essenciais dos testes automatizados com o Cypress.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Objetivo do Projeto
 
-## O que você vai aprender
+O objetivo deste projeto é fornecer um guia básico e direto sobre como usar o Cypress para testes automatizados. Ele é perfeito para usuários intermediários que já possuem conhecimento da ferramenta e que desejam aprender a criar testes mais elaborados e complexos.
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+## Como Começar
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+Siga estas etapas para começar com o Cypress Básico v2:
 
-## Vamos começar?
+1. **Fork do Repositório**: Comece criando um fork deste repositório para sua própria conta no GitHub. Clique em [**Fork**](https://github.com/wlsf82/cypress-basico-v2/fork) no canto superior direito da página para fazer uma cópia para sua conta.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+2. **Clone o Repositório**: Clone o repositório forkado para sua máquina local usando o seguinte comando no terminal:
 
-___
+   ```
+   git clone https://github.com/wlsf82/cypress-intermediario-v2.git
+   ```
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+3. **Instale as Dependências**: Navegue até o diretório do projeto e instale as dependências usando npm ou yarn:
+
+   ```
+   cd cypress-basico-v2
+   npm install
+   # ou
+   yarn install
+   ```
+
+4. **Execute os Testes**: Após a instalação das dependências, você pode executar os testes usando o Cypress. Execute o comando a seguir:
+
+   ```
+   npx cypress open
+   ```
+
+   Isso abrirá a interface do Cypress, onde você pode selecionar e executar os testes.
+
+## Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+- `cypress/integration`: Este diretório contém os arquivos de teste Cypress. Você pode adicionar seus próprios testes aqui.
+
+- `cypress/support`: Este diretório contém arquivos de suporte, como comandos personalizados do Cypress.
+
+- `cypress/plugins`: Este diretório contém plugins Cypress.
+
+- `cypress.json`: Arquivo de configuração do Cypress.
+
+## Contribuição
+
+Se você encontrar bugs ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**. Estamos mais do que felizes em receber contribuições.
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+Divirta-se explorando o mundo do Cypress e aprendendo sobre testes automatizados! Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato.
+
+**Happy testing!** 🚀
